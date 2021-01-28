@@ -50,7 +50,7 @@ The training data is protected under the Terms and Conditions and is unavailable
 ## Results <a name="results"></a>
 The fact of a person being a potential customer is positively affected by the actuality of the last transaction, gender, whether the person from GDR or FRG, with fine social status, the person is dominant minded and dreamily, and fine family type. While financial typology: money saver, number of 6-10 family houses in the PLZ8.
 
-The final predictions were made on the Udacity_MAILOUT_052018_TEST.csv, which was pre-processed as the training set. The score of the final performance of my model was 0.7963. 
+The final predictions were made on the Udacity_MAILOUT_052018_TEST.csv, which was pre-processed as the training set. The score of the final performance of my model was 0.7859. 
 
 ## Licensing, Authors, Acknowledgements <a name="license"></a>
 This web application was developed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
