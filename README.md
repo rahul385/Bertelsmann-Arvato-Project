@@ -1,14 +1,15 @@
 # Bertelsmann-Arvato-Project
 
 ### Table of Contents
-1. [Project Overview](#overview)
-2. [The Process](#process)
-3. [File Descriptions](#files)
-4. [Licensing, Authors, and Acknowledgements](#license)
+1. [Blog Post](https://rahulgupta1.medium.com/customer-segmentation-report-for-arvato-financial-services-e2f03f149f96)
+2. [Project Overview](#overview)
+3. [The Process](#process)
+4. [File Descriptions](#files)
+5. [Licensing, Authors, and Acknowledgements](#license)
 
 
 ## Project Overview<a name="overview"></a>
-“A Customer Segmentation Report for Arvato Financial Solutions” was one of the proposed projects for the Data Scientist Nanodegree Program by the Udacity. The main objective of the project is to determine the descriptive portrait of the potential customer and are chances that a new person from the targeted mailout campaign could become a new customer.
+The main objective of the project is to determine the chances that a new person from the targeted mailout campaign could become a new customer.
 Arvato has provided several dataset files that have demographic information about the general population of Germany, current customers of the company, targeted mailout campaign outcomes, and two files with a description of the demographic features.
 
 The project is divided into several subtasks:
@@ -47,9 +48,9 @@ The training data is protected under the Terms and Conditions and is unavailable
 
 
 ## Results <a name="results"></a>
-According to the 2nd part of the project with customers segmentation, the fact of a person being a potential customer is positively affected by the actuality of the last transaction, gender, whether the person from GDR or FRG, with fine social status, the person is dominant minded and dreamily, and fine family type. While financial typology: money saver, number of 6-10 family houses in the PLZ8, and density of inhabitants per square kilometer have a negative impact.
+The fact of a person being a potential customer is positively affected by the actuality of the last transaction, gender, whether the person from GDR or FRG, with fine social status, the person is dominant minded and dreamily, and fine family type. While financial typology: money saver, number of 6-10 family houses in the PLZ8.
 
-According to the 3rd part of the project with supervised models, the final predictions were made on the Udacity_MAILOUT_052018_TEST.csv, which was pre-processed as the training set. While the private score of the final performance of my model was 0.79, on Kaggle competition it managed to hold 0.79 of accuracy as well according to the AUC-ROC evaluation metric. 
+The final predictions were made on the Udacity_MAILOUT_052018_TEST.csv, which was pre-processed as the training set. The score of the final performance of my model was 0.7963. 
 
 ## Licensing, Authors, Acknowledgements <a name="license"></a>
 This web application was developed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
