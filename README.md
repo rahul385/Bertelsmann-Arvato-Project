@@ -9,8 +9,7 @@
 
 
 ## Project Overview<a name="overview"></a>
-The main objective of the project is to determine the chances that a new person from the targeted mailout campaign could become a new customer.
-Arvato has provided several dataset files that have demographic information about the general population of Germany, current customers of the company, targeted mailout campaign outcomes, and two files with a description of the demographic features.
+The objective of the project is to determine the chances that a person from mailout campaign could become a new customer.
 
 The project is divided into several subtasks:
 1.	Data Analysis and Preprocessing;
@@ -48,12 +47,13 @@ The training data is protected under the Terms and Conditions and is unavailable
 
 
 ## Results <a name="results"></a>
-The fact of a person being a potential customer is positively affected by the actuality of the last transaction, gender, whether the person from GDR or FRG, with fine social status, the person is dominant minded and dreamily, and fine family type. While financial typology: money saver, number of 6-10 family houses in the PLZ8.
 
-The final predictions were made on the Udacity_MAILOUT_052018_TEST.csv, which was pre-processed as the training set. The score of the final performance of my model was 0.7859. 
+The final predictions were made on the Udacity_MAILOUT_052018_TEST.csv. The score of the final performance of my model was 0.7859. 
 
 ## Licensing, Authors, Acknowledgements <a name="license"></a>
 This web application was developed as part of the [Udacity Data Scientist Nanodegree](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
+
+I would like to thank Bertelsmann Arvato Analytics for providing the data used for this project and for all the mentors at Udacity.
 
 Author: Rahul Gupta Copyright 2021
 
