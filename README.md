@@ -2,10 +2,11 @@
 
 ### Table of Contents
 1. [Blog Post](https://rahulgupta1.medium.com/customer-segmentation-report-for-arvato-financial-services-e2f03f149f96)
-2. [Project Overview](#overview)
-3. [The Process](#process)
-4. [File Descriptions](#files)
-5. [Licensing, Authors, and Acknowledgements](#license)
+2. [Libraries used](#library)
+3. [Project Overview](#overview)
+4. [The Process](#process)
+5. [File Descriptions](#files)
+6. [Licensing, Authors, and Acknowledgements](#license)
 
 Here is the link for the blog post on medium. [report](https://rahulgupta1.medium.com/customer-segmentation-report-for-arvato-financial-services-e2f03f149f96)
 
@@ -20,28 +21,37 @@ The project is divided into several subtasks:
 
 The training data is protected under the Terms and Conditions and is unavailable for public sharing.
 
+## Libraries used <a name="library"></a>
+
+I have used the following list of libraries in this project.
+
+#### numpy, pandas, seaborn, matplotlib, sklearn, time, os, sys
+
 ## The Process <a name="process"></a>
 
 1. Customer Segmentation Report
 You'll begin the project by using unsupervised learning methods to analyze attributes of established customers and the general population in order to create customer segments.
 
 2. Supervised Learning Model
-You'll have access to a third dataset with attributes from targets of a mail order campaign. You'll use the previous analysis to build a machine learning model that predicts whether or not each individual will respond to the campaign.
+You'll use the previous analysis to build a machine learning model that predicts whether or not each individual will respond to the campaign.
 
 3. Kaggle Competition
 Once you've chosen a model, you'll use it to make predictions on the campaign data as part of a Kaggle Competition. You'll rank the individuals by how likely they are to convert to being a customer, and see how your modeling skills measure up against your fellow students.
 
 ## File Descriptions <a name="files"></a>
 
+* `Arvato Project.ipynb`: Jupyter notebook that contains all code, data visualizations and machine learning model. The metrics used in this projects are AUC-ROC, PCA and 
+Grid Search. The algorithms I have explored are XGBoost and AdaBoost.
+
 Data is provided by Bertelsmann Arvato
-* `Udacity_AZDIAS_052018.csv`
-* `Udacity_CUSTOMERS_052018.csv`
-* `Udacity_MAILOUT_052018_TRAIN.csv`
-* `Udacity_MAILOUT_052018_TEST.csv`
+* `Udacity_AZDIAS_052018.csv`: Demographics data for the general population of Germany. 891,211 persons (rows) x 366 features (columns).
+* `Udacity_CUSTOMERS_052018.csv`: Demographics data for customers of a mail-order company. 191,652 persons (rows) x 369 features (columns)
+* `Udacity_MAILOUT_052018_TRAIN.csv`: Demographics data for individuals who were targets of a marketing campaign. 42,982 persons (rows) x 367 (columns).
+* `Udacity_MAILOUT_052018_TEST.csv`: Demographics data for individuals who were targets of a marketing campaign. 42,833 persons (rows) x 366 (columns).
 
 2 more files for describing attributes:
-* `DIAS Attributes - Values 2017.xlsx`
-* `DIAS Information Levels - Attributes 2017.xlsx`
+* `DIAS Attributes - Values 2017.xlsx`: Explains values encoding
+* `DIAS Information Levels - Attributes 2017.xlsx`: Explains column names meanings
 
 ## Results <a name="results"></a>
 
