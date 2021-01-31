@@ -33,14 +33,15 @@ I have used the following list of libraries in this project.
 You'll begin the project by using unsupervised learning methods to analyze attributes of established customers and the general population in order to create customer segments.
 
 2. Supervised Learning Model
-You'll have access to a third dataset with attributes from targets of a mail order campaign. You'll use the previous analysis to build a machine learning model that predicts whether or not each individual will respond to the campaign.
+You'll use the previous analysis to build a machine learning model that predicts whether or not each individual will respond to the campaign.
 
 3. Kaggle Competition
 Once you've chosen a model, you'll use it to make predictions on the campaign data as part of a Kaggle Competition. You'll rank the individuals by how likely they are to convert to being a customer, and see how your modeling skills measure up against your fellow students.
 
 ## File Descriptions <a name="files"></a>
 
-* `Arvato Project.ipynb`: Jupyter notebook that contains all code, data visualizations and machine learning model
+* `Arvato Project.ipynb`: Jupyter notebook that contains all code, data visualizations and machine learning model. The metrics used in this projects are AUC-ROC, PCA and 
+Grid Search. The algorithms I have explored are XGBoost and AdaBoost.
 
 Data is provided by Bertelsmann Arvato
 * `Udacity_AZDIAS_052018.csv`: Demographics data for the general population of Germany. 891,211 persons (rows) x 366 features (columns).
