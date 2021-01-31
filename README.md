@@ -24,7 +24,8 @@ The training data is protected under the Terms and Conditions and is unavailable
 ## Libraries used <a name="library"></a>
 
 I have used the following list of libraries in this project.
-numpy, pandas, seaborn, matplotlib, sklearn, time, os, sys
+
+#### numpy, pandas, seaborn, matplotlib, sklearn, time, os, sys
 
 ## The Process <a name="process"></a>
 
@@ -39,15 +40,17 @@ Once you've chosen a model, you'll use it to make predictions on the campaign da
 
 ## File Descriptions <a name="files"></a>
 
+* `Arvato Project.ipynb`: Jupyter notebook that contains all code, data visualizations and machine learning model
+
 Data is provided by Bertelsmann Arvato
-* `Udacity_AZDIAS_052018.csv`
-* `Udacity_CUSTOMERS_052018.csv`
-* `Udacity_MAILOUT_052018_TRAIN.csv`
-* `Udacity_MAILOUT_052018_TEST.csv`
+* `Udacity_AZDIAS_052018.csv`: Demographics data for the general population of Germany. 891,211 persons (rows) x 366 features (columns).
+* `Udacity_CUSTOMERS_052018.csv`: Demographics data for customers of a mail-order company. 191,652 persons (rows) x 369 features (columns)
+* `Udacity_MAILOUT_052018_TRAIN.csv`: Demographics data for individuals who were targets of a marketing campaign. 42,982 persons (rows) x 367 (columns).
+* `Udacity_MAILOUT_052018_TEST.csv`: Demographics data for individuals who were targets of a marketing campaign. 42,833 persons (rows) x 366 (columns).
 
 2 more files for describing attributes:
-* `DIAS Attributes - Values 2017.xlsx`
-* `DIAS Information Levels - Attributes 2017.xlsx`
+* `DIAS Attributes - Values 2017.xlsx`: Explains values encoding
+* `DIAS Information Levels - Attributes 2017.xlsx`: Explains column names meanings
 
 ## Results <a name="results"></a>
 
