@@ -8,7 +8,6 @@
 5. [File Descriptions](#files)
 6. [Licensing, Authors, and Acknowledgements](#license)
 
-Here is the link for the blog post on medium. [report](https://rahulgupta1.medium.com/customer-segmentation-report-for-arvato-financial-services-e2f03f149f96)
 
 ## Project Overview<a name="overview"></a>
 The objective of the project is to determine the chances that a person from mailout campaign could become a new customer.
