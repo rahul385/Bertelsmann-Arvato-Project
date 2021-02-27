@@ -1,13 +1,22 @@
 # Bertelsmann-Arvato-Project
 
+<p align = 'center'><img src = 'logo.png', height=300, width =700></p>
+
 ### Table of Contents
 1. [Blog Post](https://rahulgupta1.medium.com/customer-segmentation-report-for-arvato-financial-services-e2f03f149f96)
-2. [Libraries used](#library)
+2. [Installation](#installation)
 3. [Project Overview](#overview)
 4. [The Process](#process)
 5. [File Descriptions](#files)
 6. [Licensing, Authors, and Acknowledgements](#license)
 
+## Installation <a name="installation"></a>
+
+All the librarires required to run the code are mentioned in [requirements.txt](https://github.com/rahul385/House-Price-Prediction/blob/master/requirements.txt).
+
+To install Run: `pip install -r requirements.txt`
+
+#### numpy, pandas, seaborn, matplotlib, sklearn, time, os, sys
 
 ## Project Overview<a name="overview"></a>
 The objective of the project is to determine the chances that a person from mailout campaign could become a new customer.
@@ -20,11 +29,6 @@ The project is divided into several subtasks:
 
 The training data is protected under the Terms and Conditions and is unavailable for public sharing.
 
-## Libraries used <a name="library"></a>
-
-I have used the following list of libraries in this project.
-
-#### numpy, pandas, seaborn, matplotlib, sklearn, time, os, sys
 
 ## The Process <a name="process"></a>
 
