@@ -16,8 +16,6 @@ All the librarires required to run the code are mentioned in [requirements.txt](
 
 To install Run: `pip install -r requirements.txt`
 
-#### numpy, pandas, seaborn, matplotlib, sklearn, time, os, sys
-
 ## Project Overview<a name="overview"></a>
 The objective of the project is to determine the chances that a person from mailout campaign could become a new customer.
 
