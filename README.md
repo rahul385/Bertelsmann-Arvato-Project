@@ -1,6 +1,6 @@
 # Bertelsmann-Arvato-Project
 
-<p align = 'center'><img src = 'logo.png', height=300, width =700></p>
+<p align = 'center'><img src = 'logo.png', height=100, width =200></p>
 
 ### Table of Contents
 1. [Blog Post](https://rahulgupta1.medium.com/customer-segmentation-report-for-arvato-financial-services-e2f03f149f96)
@@ -12,7 +12,7 @@
 
 ## Installation <a name="installation"></a>
 
-All the librarires required to run the code are mentioned in [requirements.txt](https://github.com/rahul385/House-Price-Prediction/blob/master/requirements.txt).
+All the librarires required to run the code are mentioned in [requirements.txt](https://github.com/rahul385/Bertelsmann-Arvato-Project/blob/master/requirements.txt).
 
 To install Run: `pip install -r requirements.txt`
 
@@ -31,6 +31,8 @@ The training data is protected under the Terms and Conditions and is unavailable
 
 
 ## The Process <a name="process"></a>
+
+<p align = 'center'><img src = 'Process.png', height=300, width =700></p>
 
 1. Customer Segmentation Report
 You'll begin the project by using unsupervised learning methods to analyze attributes of established customers and the general population in order to create customer segments.
